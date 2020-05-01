@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bIz8FhZtRXia5dJze1ocnH6YBH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,6 +36,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/scripts" />
     </key>
   </component>
@@ -117,9 +120,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1417" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588338211795" />
-    <state x="220" y="89" key="SettingsEditor" timestamp="1588337803076">
+    <state x="220" y="89" key="SettingsEditor" timestamp="1588339672703">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="220" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588337803076" />
+    <state x="220" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588339672703" />
   </component>
 </project>
