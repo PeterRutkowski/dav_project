@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/che-new-cases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test.py" afterDir="false" />
     </list>
@@ -41,7 +41,28 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.che-new-cases">
+    <configuration name="che-new-cases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dav-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/che-new-cases.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="map_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dav-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.che-new-cases" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.map_test" />
         <item itemvalue="Python.shapetogeojson" />
@@ -131,22 +153,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="454" y="258" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1588343704290" />
-    <state width="1417" height="375" key="GridCell.Tab.0.bottom" timestamp="1588343667489">
+    <state width="1417" height="375" key="GridCell.Tab.0.bottom" timestamp="1588346124116">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588343667489" />
-    <state width="1417" height="375" key="GridCell.Tab.0.center" timestamp="1588343667487">
+    <state width="1417" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588346124116" />
+    <state width="1417" height="375" key="GridCell.Tab.0.center" timestamp="1588346124114">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="375" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588343667487" />
-    <state width="1417" height="375" key="GridCell.Tab.0.left" timestamp="1588343667486">
+    <state width="1417" height="375" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588346124114" />
+    <state width="1417" height="375" key="GridCell.Tab.0.left" timestamp="1588346124112">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="375" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588343667486" />
-    <state width="1417" height="375" key="GridCell.Tab.0.right" timestamp="1588343667488">
+    <state width="1417" height="375" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588346124112" />
+    <state width="1417" height="375" key="GridCell.Tab.0.right" timestamp="1588346124114">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="375" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588343667488" />
+    <state width="1417" height="375" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588346124114" />
     <state x="220" y="89" key="SettingsEditor" timestamp="1588339672703">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
