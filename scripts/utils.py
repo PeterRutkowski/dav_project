@@ -13,3 +13,11 @@ def load_ch_neighbours():
     return pd.read_csv('switzerland.csv'), pd.read_csv('france.csv'),\
            pd.read_csv('italy.csv'), pd.read_csv('germany.csv'),\
            pd.read_csv('austria.csv'), pd.read_csv('liechtenstein.csv')
+
+def drop_prepandemic_dates(data):
+    prepandemic_dates = []
+    for index, row in data.iterrows():
+        prepandemic_dates.append((index))
+        if row['new_cases'] > 0:
+            break
+    return data.drop(labels=prepandemic_dates)
