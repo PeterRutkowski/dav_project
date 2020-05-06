@@ -19,4 +19,4 @@ plot.set(xticks=np.arange(0,len(data['date']),15), xticklabels=[dates[ind] for i
          xlabel='Date', ylabel='New daily cases', title='New daily cases of COVID-19 in Switzerland')
 
 plot = ax.get_figure()
-fig.savefig('trial.png')
+fig.savefig('new_daily_cases.png')
