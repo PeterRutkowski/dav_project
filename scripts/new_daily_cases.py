@@ -11,6 +11,7 @@ data = data[['date','new_cases']]
 data = drop_prepandemic_dates(data)
 dates = data['date']
 
+
 sns.set(style="whitegrid")
 
 fig, ax = plt.subplots()
