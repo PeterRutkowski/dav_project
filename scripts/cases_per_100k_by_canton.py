@@ -19,7 +19,7 @@ fig, ax = plt.subplots(1, figsize=(10, 6))
 
 merged.plot(column=variable, cmap='Reds', linewidth=0.8, ax=ax, edgecolor='0.5')
 ax.axis('off')
-ax.set_title('Cases per 100k inhibitants', fontdict={'fontsize': '10', 'fontweight' : '3'})
+ax.set_title('Cases per 100k inhabitants', fontdict={'fontsize': '10', 'fontweight' : '3'})
 ax.annotate('Source: Bundesamt für Gesundheit ',xy=(0.1, .08),
             xycoords='figure fraction', horizontalalignment='left',
             verticalalignment='top', fontsize=8, color='#555555')
