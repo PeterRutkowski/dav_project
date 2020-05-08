@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/peter_work_in_progress/political_leadership_trust.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/peter_work_in_progress/trials.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/new_daily_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/new_daily_cases.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,28 +42,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.total_deaths_neighbours">
-    <configuration name="map_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dav-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/map_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.political_leadership_trust">
     <configuration name="new_daily_cases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dav-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shapetogeojson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="political_leadership_trust" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dav-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +72,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/peter_work_in_progress" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/shapetogeojson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/peter_work_in_progress/political_leadership_trust.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,13 +127,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="trials" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dav-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/peter_work_in_progress" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/peter_work_in_progress/trials.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.political_leadership_trust" />
+        <item itemvalue="Python.trials" />
         <item itemvalue="Python.total_deaths_neighbours" />
         <item itemvalue="Python.new_daily_cases" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.map_test" />
-        <item itemvalue="Python.shapetogeojson" />
       </list>
     </recent_temporary>
   </component>
@@ -177,22 +180,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588349383067" />
-    <state width="1417" height="294" key="GridCell.Tab.0.bottom" timestamp="1588771410444">
+    <state width="1417" height="307" key="GridCell.Tab.0.bottom" timestamp="1588954984229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="294" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588771410444" />
-    <state width="1417" height="294" key="GridCell.Tab.0.center" timestamp="1588771410442">
+    <state width="1417" height="307" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588954984229" />
+    <state width="1417" height="307" key="GridCell.Tab.0.center" timestamp="1588954984228">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="294" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588771410442" />
-    <state width="1417" height="294" key="GridCell.Tab.0.left" timestamp="1588771410441">
+    <state width="1417" height="307" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588954984228" />
+    <state width="1417" height="307" key="GridCell.Tab.0.left" timestamp="1588954984227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="294" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588771410441" />
-    <state width="1417" height="294" key="GridCell.Tab.0.right" timestamp="1588771410443">
+    <state width="1417" height="307" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588954984227" />
+    <state width="1417" height="307" key="GridCell.Tab.0.right" timestamp="1588954984229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="294" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588771410443" />
+    <state width="1417" height="307" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588954984229" />
     <state x="220" y="89" key="SettingsEditor" timestamp="1588339672703">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
