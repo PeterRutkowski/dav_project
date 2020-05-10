@@ -21,11 +21,11 @@ for p in ax.patches:
             height + 1, str(int(height))+'%',
             ha="center", size=9)
 
-plt.text(0.91, -0.12, 'Source: SRG SSR, Die Schweiz und die Corona-Krise',
+plt.text(0.88, -0.12, 'Source: SRG SSR, Die Schweiz und die Corona-Krise',
          horizontalalignment='center',
          verticalalignment='center', transform=ax.transAxes, size=7)
 
-plt.text(0.11, -0.12, 'Details: March 21-23, 2020; 30460 respondents; 15 years and older',
+plt.text(0.15, -0.12, 'Details: March 21-23, 2020; 30460 respondents; 15 years and older',
          horizontalalignment='center',
          verticalalignment='center', transform=ax.transAxes, size=7)
 
