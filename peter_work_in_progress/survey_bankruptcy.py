@@ -23,13 +23,13 @@ for p in ax.patches:
             height + 1, str(int(height))+'%',
             ha="center", size=9)
 
-plt.text(0.94, -0.11, 'Source: Schweiz Tourismus; FH Westschweiz Wallis,\n'
-                      'Wirtschaftliche Auswirkungen der Coronavirus-Krise\n'
-                      'auf den Schweizer Tourismus 2020, page 62',
+plt.text(0.98, -0.1, 'Source: Wirtschaftliche Auswirkungen\n'
+                      'der Coronavirus-Krise\n'
+                      'auf den Schweizer Tourismus 2020',
          horizontalalignment='center',
          verticalalignment='center', transform=ax.transAxes, size=5)
 
-plt.text(0.65, -0.101, 'Details: March 23-24, 2020;\n2046 establishments',
+plt.text(0.5, -0.101, 'Details: March 23-24, 2020; 2046 establishments',
          horizontalalignment='center',
          verticalalignment='center', transform=ax.transAxes, size=5)
 

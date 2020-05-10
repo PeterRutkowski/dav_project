@@ -20,7 +20,7 @@ for p in ax.patches:
             height + 1, str(int(height))+'%',
             ha="center", size=9)
 
-plt.text(0.82, -0.11, 'Source: SRG SSR, Die Schweiz und die Corona-Krise, page 29',
+plt.text(0.82, -0.11, 'Source: SRG SSR, Die Schweiz und die Corona-Krise',
          horizontalalignment='center',
          verticalalignment='center', transform=ax.transAxes, size=7)
 
