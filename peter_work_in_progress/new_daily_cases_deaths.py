@@ -14,7 +14,7 @@ sns.barplot(x='date', y='new_cases', data=new_cases, color=(128/255,170/255,255/
 sns.barplot(x='date',y='new_deaths', data=new_deaths, color=(255/255,51/255,51/255), ax=ax)
 ax.set_title('New daily COVID-19 cases and deaths in Switzerland', fontsize=12)
 ax.set_xticks(np.arange(0,len(data['date']),15))
-ax.set_xticklabels([dates[ind] for ind in range(0,len(data['date']),15)], fontsize=10)
+ax.set_xticklabels(['Feb 26', 'Mar 12', 'Mar 27', 'Apr 11', 'Apr 26'], fontsize=10)
 ax.set_xlabel('', fontsize=0)
 ax.set_ylabel('New confirmed cases/deaths', fontsize=10)
 

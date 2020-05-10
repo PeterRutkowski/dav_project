@@ -9,7 +9,7 @@ sns.set(style="whitegrid")
 
 ax = sns.barplot(x="label", y="val", data=data, color=(128/255,170/255,255/255))
 ax.set_title('Does the coronavirus (COVID-19) scare you?', fontsize=12)
-ax.set_xlabel('4-6 = yes; 1-3 = no', fontsize=10)
+ax.set_xlabel('1-3 = no; 4-6 = yes', fontsize=10)
 ax.set_xticklabels(['1= no, not at all',2 ,3, 4, 5, '6= yes, very'], fontsize=10)
 ax.set_ylabel('Share of respondents', fontsize=10)
 ax.set_yticks(np.arange(0,60,10))
