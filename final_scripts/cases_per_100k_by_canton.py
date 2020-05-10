@@ -15,16 +15,16 @@ merged = map_df.set_index('Canton').join(df.set_index('Canton'))
 variable = 'cases'
 vmin, vmax = 92.7, 1031.1
 
-fig, ax = plt.subplots(1, figsize=(10, 6))
+fig, ax = plt.subplots()
 
-merged.plot(column=variable, cmap='Reds', linewidth=0.8, ax=ax, edgecolor='0.5')
+merged.plot(column=variable, cmap='Reds', linewidth=0.8, ax=ax, edgecolor='white')
 ax.axis('off')
-ax.set_title('Cases per 100k inhabitants', fontdict={'fontsize': '10', 'fontweight' : '3'})
-ax.annotate('Source: Bundesamt für Gesundheit ',xy=(0.1, .08),
+ax.set_title('Cases per 100 thousand inhabitants', fontdict={'fontsize': '12', 'fontweight' : '3'})
+ax.annotate('Source: Bundesamt für Gesundheit ',xy=(0.66, .08),
             xycoords='figure fraction', horizontalalignment='left',
-            verticalalignment='top', fontsize=8, color='#555555')
+            verticalalignment='top', fontsize=7, color='#555555')
 sm = plt.cm.ScalarMappable(cmap='Reds', norm=plt.Normalize(vmin=vmin, vmax=vmax))
 sm._A = []
 cbar = fig.colorbar(sm)
 fig.set_size_inches(7,3)
-fig.savefig('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\plots\\cases_per_100k_by_cantons.png', dpi=300)
+fig.savefig('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\plots\\cases_per_100k_by_cantons.png', dpi=400)
