@@ -24,7 +24,7 @@ sns.barplot(x='agegroup',y='deaths',data=df1,color='#ff3333')
 sns.set_style("whitegrid")
 
 for index, row in df1.iterrows():
-    g.text(index,row.hospitalized+20, round(row.hospitalized), color='black', ha="center",fontsize=10)
+    g.text(index,row.hospitalized+20, round(row.hospitalized), color='black', ha="center",fontsize=9)
 
 labels=[]
 for i in df1['agegroup']:
@@ -42,6 +42,6 @@ plt.legend(handles=[blue_patch,red_patch],loc='upper left',frameon=False)
 plt.tight_layout()
 plt.annotate('Source: Bundesamt für Gesundheit',xy=(1,0.03),
             xycoords='figure fraction', horizontalalignment='right',
-            verticalalignment='top', fontsize=8, color='#555555')
+            verticalalignment='top', fontsize=7, color='#555555')
 fig=g.get_figure()
-fig.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/Hospitalizations_due_to_the_COVID-19_in_Switzerland_by_age_group.png')
+fig.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/Hospitalizations_due_to_the_COVID-19_in_Switzerland_by_age_group.png',dpi=400)
