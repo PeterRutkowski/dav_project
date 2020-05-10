@@ -18,7 +18,7 @@ ax.set_xticklabels([dates[ind] for ind in range(0,len(data['date']),15)], fontsi
 ax.set_xlabel('', fontsize=0)
 ax.set_ylabel('New confirmed cases/deaths', fontsize=10)
 
-lgd = ax.legend(fontsize=10)
+lgd = ax.legend(fontsize=10, frameon=False, loc=(0.75,0.83))
 
 def add_patch(legend):
     from matplotlib.patches import Patch
@@ -35,5 +35,11 @@ def add_patch(legend):
     legend.set_title(legend.get_title().get_text())
 
 add_patch(lgd)
+
+plt.text(1, -0.12, 'Source: ourworldindata.org',
+         horizontalalignment='center',
+         verticalalignment='center', transform=ax.transAxes, size=7)
+
+
 
 plt.savefig('new_daily_cases_deaths.png', dpi=400)
