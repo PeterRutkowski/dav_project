@@ -26,15 +26,15 @@ plt.title('Switzerland mobility trends',loc='center',fontsize=12)
 ax.set_xlim(-10,133)
 ax.set_ylim(20,150)
 coord=[100,73.68,38.42,58.86]
-ax.text(110, coord[0], 'Baseline', color='dimgray', va='center', fontweight='bold')
-ax.text(110, coord[1], 'driving -26%', color='red', va='center')
-ax.text(110, coord[2], 'transit -62%', color='purple', va='center')
-ax.text(110, coord[3], 'walking -41%', color='orange', va='center')
+ax.text(110, coord[0], 'Baseline', color='dimgray', va='center', fontweight='bold',fontsize=11)
+ax.text(110, coord[1], 'driving -26%', color='red', va='center',fontsize=11)
+ax.text(110, coord[2], 'transit -62%', color='purple', va='center',fontsize=11)
+ax.text(110, coord[3], 'walking -41%', color='orange', va='center',fontsize=11)
 ax.get_legend().remove()
 
 plt.plot([-10,100],[100,100],c='dimgray')
-plt.annotate('Source: Apple mobility trends',xy=(0.98,0.05),
+plt.annotate('Source: Apple mobility trends',xy=(0.97,0.03),
             xycoords='figure fraction', horizontalalignment='right',
-            verticalalignment='top', fontsize=8, color='#555555')
+            verticalalignment='top', fontsize=7, color='#555555')
 plt.tight_layout()            
-fig.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/transportation.png')
+fig.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/transportation.png',dpi=400)
