@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = pd.read_csv('survey_leadership.csv')
+data = pd.read_csv('../data/survey_leadership.csv')
 
 sns.set(style="whitegrid")
 
@@ -23,11 +23,11 @@ for p in ax.patches:
 
 plt.text(0.91, -0.12, 'Source: SRG SSR, Die Schweiz und die Corona-Krise',
          horizontalalignment='center',
-         verticalalignment='center', transform=ax.transAxes, size=6)
+         verticalalignment='center', transform=ax.transAxes, size=7)
 
 plt.text(0.11, -0.12, 'Details: March 21-23, 2020; 30460 respondents; 15 years and older',
          horizontalalignment='center',
-         verticalalignment='center', transform=ax.transAxes, size=6)
+         verticalalignment='center', transform=ax.transAxes, size=7)
 
 
 plt.savefig('survey_leadership.png', dpi=400)

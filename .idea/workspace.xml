@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/peter_work_in_progress/survey_fear.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/survey_bankruptcy.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/survey_leadership.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/survey_bankruptcy.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/survey_bankruptcy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/survey_leadership.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/survey_leadership.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/survey_bankruptcy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/survey_leadership.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/trials.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/trials.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/survey_fear.csv" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/survey_fear.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/survey_leadership.csv" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/survey_leadership.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_scripts/age_groups_hospitalized.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/final_scripts/age_groups_hospitalized.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_scripts/cases_per_100k_by_canton.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/final_scripts/cases_per_100k_by_canton.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_scripts/lossaddedvalue.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/final_scripts/lossaddedvalue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_scripts/survey_bankruptcy.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/final_scripts/survey_bankruptcy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_scripts/survey_fear.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/survey_fear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_scripts/survey_leadership.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/survey_leadership.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_scripts/transportation.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/final_scripts/transportation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.survey_bankruptcy">
+  <component name="RunManager" selected="Python.survey_leadership">
     <configuration name="survey_bankruptcy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dav-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,7 +83,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/peter_work_in_progress/survey_fear.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/final_scripts/survey_fear.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +104,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/peter_work_in_progress/survey_leadership.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/final_scripts/survey_leadership.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,9 +157,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.survey_bankruptcy" />
         <item itemvalue="Python.survey_leadership" />
         <item itemvalue="Python.survey_fear" />
+        <item itemvalue="Python.survey_bankruptcy" />
         <item itemvalue="Python.trials" />
         <item itemvalue="Python.total_deaths_neighbours" />
       </list>
@@ -190,25 +191,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588349383067" />
-    <state width="1417" height="288" key="GridCell.Tab.0.bottom" timestamp="1589130097627">
+    <state width="1417" height="288" key="GridCell.Tab.0.bottom" timestamp="1589133558837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="288" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589130097627" />
+    <state width="1417" height="288" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589133558837" />
     <state width="1417" height="288" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589128362845" />
-    <state width="1417" height="288" key="GridCell.Tab.0.center" timestamp="1589130097626">
+    <state width="1417" height="288" key="GridCell.Tab.0.center" timestamp="1589133558836">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="288" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589130097626" />
+    <state width="1417" height="288" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589133558836" />
     <state width="1417" height="288" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589128362844" />
-    <state width="1417" height="288" key="GridCell.Tab.0.left" timestamp="1589130097625">
+    <state width="1417" height="288" key="GridCell.Tab.0.left" timestamp="1589133558835">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="288" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589130097625" />
+    <state width="1417" height="288" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589133558835" />
     <state width="1417" height="288" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589128362843" />
-    <state width="1417" height="288" key="GridCell.Tab.0.right" timestamp="1589130097626">
+    <state width="1417" height="288" key="GridCell.Tab.0.right" timestamp="1589133558837">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="288" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589130097626" />
+    <state width="1417" height="288" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589133558837" />
     <state width="1417" height="288" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589128362845" />
     <state x="220" y="89" key="SettingsEditor" timestamp="1588339672703">
       <screen x="0" y="0" width="1440" height="900" />

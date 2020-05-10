@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = pd.read_csv('survey_fear.csv')
+data = pd.read_csv('../data/survey_fear.csv')
 
 sns.set(style="whitegrid")
 
@@ -21,13 +21,13 @@ for p in ax.patches:
             height + 1, str(int(height))+'%',
             ha="center", size=9)
 
-plt.text(1, -0.12, 'Source: dieMarktforscher.org',
+plt.text(0.98, -0.13, 'Source: dieMarktforscher.org',
          horizontalalignment='center',
-         verticalalignment='center', transform=ax.transAxes, size=6)
+         verticalalignment='center', transform=ax.transAxes, size=7)
 
-plt.text(0.1, -0.12, 'Details: Switzerland; March 9-11; 18-69 years; 520 respondents',
+plt.text(0.12, -0.13, 'Details: Switzerland; March 9-11; 18-69 years; 520 respondents',
          horizontalalignment='center',
-         verticalalignment='center', transform=ax.transAxes, size=6)
+         verticalalignment='center', transform=ax.transAxes, size=7)
 
 
 plt.savefig('survey_fear.png', dpi=400)
