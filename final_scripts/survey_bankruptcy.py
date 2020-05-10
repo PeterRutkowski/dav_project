@@ -15,21 +15,19 @@ ax.set_ylabel('Likelihood of bankruptcy', fontsize=9)
 ax.set_yticks(np.arange(0,60,10))
 ax.set_yticklabels([str(el)+'%' for el in np.arange(0,60,10)], size = 9)
 
-
-
 for p in ax.patches:
     height = p.get_height()
     ax.text(p.get_x()+p.get_width()/2.,
             height + 1, str(int(height))+'%',
             ha="center", size=9)
 
-plt.text(0.98, -0.1, 'Source: Wirtschaftliche Auswirkungen\n'
+plt.text(1, -0.11, 'Source: Wirtschaftliche Auswirkungen\n'
                       'der Coronavirus-Krise\n'
                       'auf den Schweizer Tourismus 2020',
          horizontalalignment='center',
          verticalalignment='center', transform=ax.transAxes, size=5)
 
-plt.text(0.5, -0.101, 'Details: March 23-24, 2020; 2046 establishments',
+plt.text(0., -0.129, 'Details: March 23-24, 2020; 2046 establishments',
          horizontalalignment='center',
          verticalalignment='center', transform=ax.transAxes, size=5)
 
