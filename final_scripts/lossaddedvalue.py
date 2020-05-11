@@ -30,7 +30,7 @@ ax.set_ylim([0,75])
 plt.legend(frameon=False,loc='upper center', bbox_to_anchor=(0.5, 0.95),
           fancybox=True, shadow=True, ncol=2)
 plt.yticks(ticks=[0,20,40,60],labels=['0','20','40','60'])
-plt.title('Forecast for loss in added value due to the COVID-19 in \n Switzerland by duration of shutdowns (in billion euros)',loc='center',fontsize=12)
+plt.title('Forecast for loss in added value due to the COVID-19 in \n Switzerland by duration of shutdowns',loc='center',fontsize=12)
 plt.tight_layout()            
 
 fig.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/lossaddedvalue.png',dpi=400)
