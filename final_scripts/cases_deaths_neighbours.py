@@ -25,7 +25,7 @@ fig, ax = plt.subplots()
 merged.plot(column=variable, cmap='Blues', linewidth=0.8, ax=ax, edgecolor='white')
 ax.axis('off')
 ax.set_title('Total cases and deaths in Switzerland and its neighbours', fontdict={'fontsize': '12', 'fontweight' : '3'})
-ax.annotate('Source: Bundesamt für Gesundheit ',xy=(0.66, .08),
+ax.annotate('Source: Our World in Data',xy=(0.72, .08),
             xycoords='figure fraction', horizontalalignment='left',
             verticalalignment='top', fontsize=7, color='#555555')
 sm = plt.cm.ScalarMappable(cmap='Blues', norm=plt.Normalize(vmin=vmin, vmax=vmax))
