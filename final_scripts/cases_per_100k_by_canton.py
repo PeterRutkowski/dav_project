@@ -1,6 +1,7 @@
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import pandas as pd
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 fp='C:\\Users\\rysza\\Desktop\\python data analysis\zajecia7\map switzerland\\swisscanton\\ch-cantons.shp'
 map_df = gpd.read_file(fp)
 map_df.plot()
@@ -15,16 +16,14 @@ merged = map_df.set_index('Canton').join(df.set_index('Canton'))
 variable = 'cases'
 vmin, vmax = 92.7, 1031.1
 
-fig, ax = plt.subplots()
-
-merged.plot(column=variable, cmap='Reds', linewidth=0.8, ax=ax, edgecolor='white')
+fig, ax = plt.subplots(figsize=(8,6))
+divider = make_axes_locatable(ax)
+cax = divider.append_axes("right", size="5%", pad=0.1)
+merged.plot(column=variable, cmap='Reds', linewidth=0.8, ax=ax, edgecolor='white', legend=True, cax=cax)
 ax.axis('off')
-ax.set_title('Cases per 100 thousand inhabitants', fontdict={'fontsize': '12', 'fontweight' : '3'})
-ax.annotate('Source: Bundesamt für Gesundheit ',xy=(0.66, .08),
+ax.set_title('Cases per 100 thousand inhabitants by cantons', fontdict={'fontsize': '12', 'fontweight' : '3'})
+ax.annotate('Source: Bundesamt für Gesundheit ',xy=(0.66, .18),
             xycoords='figure fraction', horizontalalignment='left',
             verticalalignment='top', fontsize=7, color='#555555')
-sm = plt.cm.ScalarMappable(cmap='Reds', norm=plt.Normalize(vmin=vmin, vmax=vmax))
-sm._A = []
-cbar = fig.colorbar(sm)
-fig.set_size_inches(7,3)
+fig.set_size_inches(8, 6)
 fig.savefig('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\plots\\cases_per_100k_by_cantons.png', dpi=400)

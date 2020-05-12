@@ -11,7 +11,7 @@ df=df.melt(id_vars=["date"],
         var_name="transportation", 
         value_name="value")
 
-fig, ax = plt.subplots(figsize=(8, 5))
+fig, ax = plt.subplots(figsize=(8, 6))
 sns.lineplot(x='date',y='value',hue='transportation',data=df,palette=['red','purple','orange'])
 ticktextx=['Jan 15 \n 2020',"Feb 1",'Feb 15','Mar 1','Mar 15','Apr 1','Apr 15','May 1']
 tickvalsx=['2020-01-15',"2020-02-01","2020-02-15","2020-03-01","2020-03-15","2020-04-01","2020-04-15","2020-05-01"]
@@ -21,7 +21,7 @@ plt.ylabel('')
 plt.xlabel('')
 plt.xticks(ticks=tickvalsx,labels=ticktextx,fontsize=10,rotation=0)
 plt.yticks(ticks=tickvalsy,labels=ticktexty,fontsize=10)
-plt.grid(axis='y')
+plt.grid(axis='x')
 plt.title('Switzerland mobility trends',loc='center',fontsize=12)
 ax.set_xlim(-10,133)
 ax.set_ylim(20,150)
@@ -36,5 +36,6 @@ plt.plot([-10,100],[100,100],c='dimgray')
 plt.annotate('Source: Apple mobility trends',xy=(0.97,0.03),
             xycoords='figure fraction', horizontalalignment='right',
             verticalalignment='top', fontsize=7, color='#555555')
-plt.tight_layout()            
+plt.tight_layout()  
+fig.set_size_inches(8, 6)         
 fig.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/transportation.png',dpi=400)
