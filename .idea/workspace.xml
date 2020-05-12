@@ -4,104 +4,112 @@
     <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/final_scripts/new_daily_cases_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/new_daily_cases_deaths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim0.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim1.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim10.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim11.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim12.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim13.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim14.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim15.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim16.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim17.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim18.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim19.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim2.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim20.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim21.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim22.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim23.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim24.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim25.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim26.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim27.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim28.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim29.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim3.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim30.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim31.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim32.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim33.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim34.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim35.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim36.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim37.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim38.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim39.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim4.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim40.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim41.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim41.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim42.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim43.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim44.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim45.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim46.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim47.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim48.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim49.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim49.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim5.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim50.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim51.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim51.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim52.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim52.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim53.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim53.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim54.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim54.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim55.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim56.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim56.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim57.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim58.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim58.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim59.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim6.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim60.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim61.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim62.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim63.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim63.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim64.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim65.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim66.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim66.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim67.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim67.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim68.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim68.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim69.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim69.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim7.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim70.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim71.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim71.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim72.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim73.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim73.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim74.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim74.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim75.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim75.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim76.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim77.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim78.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim78.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim79.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim79.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim8.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim80.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim81.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim81.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim82.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim82.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim83.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim83.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim84.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim85.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim85.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim86.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim86.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim87.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim87.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim88.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim88.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim89.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim9.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim90.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim91.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim91.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim92.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim92.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim93.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim93.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim94.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim94.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim95.png" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/animation/anim95.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/cases_animation.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/cases_animation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim93.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/animation/anim95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/aut_anim.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/cases_animation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/che_anim.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/fra_anim.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/ger_anim.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/ita_anim.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/lie_anim.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/ourworldindatadeathetc.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/trials.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/utils.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,14 +142,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/final_scripts" />
       <recent name="$PROJECT_DIR$/final_plots" />
       <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/final_scripts" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/peter_work_in_progress" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.new_daily_cases_deaths (1)">
+  <component name="RunManager" selected="Python.cases_animation">
     <configuration name="cases_animation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dav-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,8 +257,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.new_daily_cases_deaths (1)" />
         <item itemvalue="Python.cases_animation" />
+        <item itemvalue="Python.new_daily_cases_deaths (1)" />
         <item itemvalue="Python.new_daily_cases_deaths" />
         <item itemvalue="Python.survey_bankruptcy" />
         <item itemvalue="Python.survey_leadership" />
@@ -283,25 +291,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588349383067" />
-    <state width="1417" height="330" key="GridCell.Tab.0.bottom" timestamp="1589295644530">
+    <state width="1417" height="273" key="GridCell.Tab.0.bottom" timestamp="1589299202439">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="330" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589295644530" />
+    <state width="1417" height="273" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1589299202439" />
     <state width="1417" height="288" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589128362845" />
-    <state width="1417" height="330" key="GridCell.Tab.0.center" timestamp="1589295644529">
+    <state width="1417" height="273" key="GridCell.Tab.0.center" timestamp="1589299202437">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="330" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589295644529" />
+    <state width="1417" height="273" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1589299202437" />
     <state width="1417" height="288" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589128362844" />
-    <state width="1417" height="330" key="GridCell.Tab.0.left" timestamp="1589295644528">
+    <state width="1417" height="273" key="GridCell.Tab.0.left" timestamp="1589299202437">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="330" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589295644528" />
+    <state width="1417" height="273" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1589299202437" />
     <state width="1417" height="288" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589128362843" />
-    <state width="1417" height="330" key="GridCell.Tab.0.right" timestamp="1589295644529">
+    <state width="1417" height="273" key="GridCell.Tab.0.right" timestamp="1589299202438">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="330" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589295644529" />
+    <state width="1417" height="273" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1589299202438" />
     <state width="1417" height="288" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589128362845" />
     <state x="220" y="89" key="SettingsEditor" timestamp="1588339672703">
       <screen x="0" y="0" width="1440" height="900" />

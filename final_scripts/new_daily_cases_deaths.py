@@ -1,7 +1,6 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import numpy as np
 
 data = pd.read_csv('../data/che.csv')
 new_cases = data[['date','new_cases']]
