@@ -1,6 +1,7 @@
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import pandas as pd
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 fp='C:/Users/rysza/Desktop/python data analysis/Project/Europe/Europe.shp'
 map_df = gpd.read_file(fp)
 countries=['France','Italy','Switzerland','Austria','Germany','Liechtenstein']
@@ -21,16 +22,15 @@ gdf = gpd.GeoDataFrame(
 variable = 'total_cases'
 vmin, vmax = 83, 199414
 
-fig, ax = plt.subplots()
-merged.plot(column=variable, cmap='Blues', linewidth=0.8, ax=ax, edgecolor='white')
+fig, ax = plt.subplots(figsize=(8, 6))
+divider = make_axes_locatable(ax)
+cax = divider.append_axes("right", size="5%", pad=0.1)
+merged.plot(column=variable, cmap='Blues', linewidth=0.8, ax=ax, edgecolor='white', legend=True, cax=cax)
 ax.axis('off')
 ax.set_title('Total cases and deaths in Switzerland and its neighbours', fontdict={'fontsize': '12', 'fontweight' : '3'})
 ax.annotate('Source: Our World in Data',xy=(0.72, .08),
             xycoords='figure fraction', horizontalalignment='left',
             verticalalignment='top', fontsize=7, color='#555555')
-sm = plt.cm.ScalarMappable(cmap='Blues', norm=plt.Normalize(vmin=vmin, vmax=vmax))
-sm._A = []
-cbar = fig.colorbar(sm)
 gdf.plot(ax=ax,edgecolor='black',color='black', markersize=[232.3,269.7,13.52,5.5,59.13,0.01])
 ax.text(x=-15, y=53,s='Deaths')
 ax.text(x=-15, y=49.5,s='26.9k')
@@ -39,5 +39,5 @@ ax.text(x=-15, y=41.5,s='5.9k')
 ax.text(x=-15, y=37.5,s='1.3k')
 ax.text(x=-15, y=33.5,s='500')
 ax.scatter(x=[-18,-18,-18,-18,-18,-18],y=[50,46,42,38,34,30], s=[269.7,232.3,59.13,13.52,5.5,0.01],c='black')
-fig.set_size_inches(7,3)
+fig.set_size_inches(8, 6)
 fig.savefig('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\plots\\cases_deaths_neighbours.png', dpi=400)
