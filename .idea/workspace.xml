@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/peter_work_in_progress/cases_animation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/che.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/new_daily_cases_deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/new_daily_cases_deaths.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_arma_cases.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/prediction_arma_cases.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_arma_deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/prediction_arma_deaths.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_autoreg_cases.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/prediction_autoreg_cases.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_autoreg_deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/prediction_autoreg_deaths.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_smoothing_cases.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/prediction_smoothing_cases.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_smoothing_deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/prediction_smoothing_deaths.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/survey_bankruptcy.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/survey_bankruptcy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/survey_fear.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/survey_fear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/survey_leadership.png" beforeDir="false" afterPath="$PROJECT_DIR$/final_plots/survey_leadership.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/new_daily_cases_deaths.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_arma_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/prediction_arma_cases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_arma_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/prediction_arma_deaths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_autoreg_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/prediction_autoreg_cases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_autoreg_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/prediction_autoreg_deaths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_smoothing_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/prediction_smoothing_cases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_smoothing_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/prediction_smoothing_deaths.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/survey_bankruptcy.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/survey_bankruptcy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/survey_fear.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/survey_fear.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/survey_leadership.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_scripts/survey_leadership.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/aut.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/fra.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/ger.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/ita.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/lie.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/trials.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/trials.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/utils.py" afterDir="false" />
-    </list>
+    <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
