@@ -16,7 +16,7 @@ model_fit = model.fit()
 pred = model_fit.predict(len(x), len(x)+throwback-1)
 
 sns.set(style="whitegrid")
-fig, ax = plt.subplots()
+fig, ax = plt.subplots(figsize=(8,6))
 ax.bar(np.arange(0,len(x),1), x, color=(128/255,170/255,255/255))
 ax.bar(np.arange(len(x),len(x)+throwback,1), pred, color=(255/255,51/255,51/255))
 ax.set_title('Predicted evolution of new daily COVID-19 deaths\n'
