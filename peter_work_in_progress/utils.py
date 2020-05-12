@@ -39,7 +39,7 @@ def load_ch_neighbours(anim=False):
                pd.read_csv('ita_anim.csv'), pd.read_csv('ger_anim.csv'), \
                pd.read_csv('aut_anim.csv'), pd.read_csv('lie_anim.csv')]
     else:
-        return pd.read_csv('che.csv'), pd.read_csv('fra.csv'),\
-               pd.read_csv('ita.csv'), pd.read_csv('ger.csv'),\
+        return pd.read_csv('../data/che.csv'), pd.read_csv('fra.csv'), \
+               pd.read_csv('ita.csv'), pd.read_csv('ger.csv'), \
                pd.read_csv('aut.csv'), pd.read_csv('lie.csv')
 

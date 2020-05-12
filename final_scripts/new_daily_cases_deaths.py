@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = pd.read_csv('che.csv')
+data = pd.read_csv('../data/che.csv')
 new_cases = data[['date','new_cases']]
 new_deaths = data[['date','new_deaths']]
 dates = data['date']
@@ -14,7 +14,7 @@ sns.barplot(x='date', y='new_cases', data=new_cases, color=(128/255,170/255,255/
 sns.barplot(x='date',y='new_deaths', data=new_deaths, color=(255/255,51/255,51/255), ax=ax)
 ax.set_title('New daily COVID-19 cases and deaths in Switzerland', fontsize=12)
 ax.set_xticks([4,35,65])
-ax.set_xticklabels(['Mar 1', 'Apr 1', 'May 1'], fontsize=10)
+ax.set_xticklabels(['Feb 1', 'Mar 1', 'Apr 1'], fontsize=10)
 ax.set_xlabel('', fontsize=0)
 ax.set_ylabel('New confirmed cases/deaths', fontsize=10)
 

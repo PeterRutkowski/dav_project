@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = pd.read_csv('che.csv')
+data = pd.read_csv('../data/che.csv')
 dates = data['date']
 data = data[['new_cases', 'new_deaths']]
 x = np.asarray(data['new_deaths'])
