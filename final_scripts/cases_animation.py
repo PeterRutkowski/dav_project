@@ -12,7 +12,6 @@ for i in range(len(data)):
 x = np.arange(0,len(dates),1)
 y = data
 
-
 def plot(x, y, index, colors):
     sns.set(style="whitegrid")
     fig, ax = plt.subplots(figsize=(8, 6))
