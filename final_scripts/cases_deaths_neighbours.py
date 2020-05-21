@@ -2,12 +2,16 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 import pandas as pd
 from mpl_toolkits.axes_grid1 import make_axes_locatable
-fp='C:/Users/rysza/Desktop/python data analysis/Project/Europe/Europe.shp'
+from pathlib import Path
+data_folder = Path("../data/")
+plots_folder=Path('../plots/')
+europe_folder=Path('../Europe/')
+fp=europe_folder/'Europe.shp'
 map_df = gpd.read_file(fp)
 countries=['France','Italy','Switzerland','Austria','Germany','Liechtenstein']
 map_df=map_df.loc[map_df['NAME'].isin(countries) ]
 map_df=map_df.rename(columns={'NAME':'Country'})
-df = pd.read_csv('C:/Users/rysza/Desktop/python data analysis/Project/ourworldindatadeathetc.csv')
+df = pd.read_csv(data_folder/'ourworldindatadeathetc.csv')
 
 df = df.loc[df['date']=='2020-04-28']
 df = df.loc[df['location'].isin(countries)]
@@ -40,4 +44,4 @@ ax.text(x=-15, y=37.5,s='1.3k')
 ax.text(x=-15, y=33.5,s='500')
 ax.scatter(x=[-18,-18,-18,-18,-18,-18],y=[50,46,42,38,34,30], s=[269.7,232.3,59.13,13.52,5.5,0.01],c='black')
 fig.set_size_inches(8, 6)
-fig.savefig('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\plots\\cases_deaths_neighbours.png', dpi=400)
+fig.savefig(plots_folder/'cases_deaths_neighbours.png', dpi=400)

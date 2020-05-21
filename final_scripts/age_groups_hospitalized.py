@@ -2,9 +2,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import matplotlib.patches as mpatches
-fp='C:/Users/rysza/Desktop/python data analysis/Project/COVID19_Fallzahlen_Kanton_TG_Geschlecht_Alterskategorie.csv'
-
-xls = pd.ExcelFile('C:/Users/rysza/Desktop/python data analysis/Project/agegroups.xlsx')
+from pathlib import Path
+data_folder = Path("../data/")
+plots_folder=Path('../plots/')
+xls = pd.ExcelFile(data_folder/'agegroups.xlsx')
 
 df1 = pd.read_excel(xls, 'COVID19 Altersverteilung Hospit',header=6)
 
@@ -32,18 +33,16 @@ labels=[]
 for i in df1['agegroup']:
     labels.append(i)
 ax.set_xticklabels(labels ,rotation=0,fontsize=10)
-plt.xlabel('years',fontsize=10)
+plt.xlabel('age groups',fontsize=10)
 plt.ylabel('')
 plt.yticks(ticks=[0,250,500,750,1000],labels=['0','250','500','750','1000'])
-ax.set_ylim([0,1300])
+ax.set_ylim([0,1250])
 plt.title('Hospitalizations due to the COVID-19 in Switzerland by age group',loc='center',fontsize=12)
 red_patch = mpatches.Patch(color='#ff3333', label='deaths')
 blue_patch = mpatches.Patch(color="#80aaff", label='hospitalizations')
 plt.legend(handles=[blue_patch,red_patch],frameon=False,loc='upper center', bbox_to_anchor=(0.5, 0.95),
           fancybox=True, shadow=True, ncol=2,fontsize=11)
-plt.tight_layout()
-plt.annotate('Source: Bundesamt für Gesundheit',xy=(1,0.03),
+plt.annotate('Source: Bundesamt für Gesundheit',xy=(0.98,0.03),
             xycoords='figure fraction', horizontalalignment='right',
             verticalalignment='top', fontsize=7, color='#555555')
-fig.set_size_inches(8, 6)
-plt.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/Hospitalizations_due_to_the_COVID-19_in_Switzerland_by_age_group.png',dpi=400)
+plt.savefig(plots_folder/'Hospitalizations_due_to_the_COVID-19_in_Switzerland_by_age_group.png',dpi=400)

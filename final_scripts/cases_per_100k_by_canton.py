@@ -2,11 +2,17 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 import pandas as pd
 from mpl_toolkits.axes_grid1 import make_axes_locatable
-fp='C:\\Users\\rysza\\Desktop\\python data analysis\zajecia7\map switzerland\\swisscanton\\ch-cantons.shp'
+from pathlib import Path
+data_folder = Path("../data/")
+plots_folder=Path('../plots/')
+switzerland_folder=Path('../swisscanton/')
+
+
+fp=switzerland_folder/'ch-cantons.shp'
 map_df = gpd.read_file(fp)
 map_df.plot()
 map_df['Canton']=['AG','AR','AI','BL','BS','BE','FR','GE','GL','GR','JU','LU','NE','NW','OW','SG','SH','SZ','SO','TG','TI','UR','VS','VD','ZG','ZH']
-xls = pd.ExcelFile('C:/Users/rysza/Desktop/python data analysis/Project/agegroups.xlsx')
+xls = pd.ExcelFile(data_folder/'agegroups.xlsx')
 
 df = pd.read_excel(xls, 'COVID19 Kantone',header=6)
 df=df[['Kanton','Inzidenz/100 000']].rename(columns={'Kanton':'Canton','Inzidenz/100 000':'cases'})
@@ -26,4 +32,4 @@ ax.annotate('Source: Bundesamt für Gesundheit ',xy=(0.66, .18),
             xycoords='figure fraction', horizontalalignment='left',
             verticalalignment='top', fontsize=7, color='#555555')
 fig.set_size_inches(8, 6)
-fig.savefig('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\plots\\cases_per_100k_by_cantons.png', dpi=400)
+fig.savefig(plots_folder/'cases_per_100k_by_cantons.png', dpi=400)

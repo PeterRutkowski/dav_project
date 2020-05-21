@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-df = pd.read_csv('C:/Users/rysza/Desktop/python data analysis/Project/applemobilitytrends-2020-04-28.csv', sep=",", error_bad_lines=False, index_col=2)
+from pathlib import Path
+data_folder = Path("../data/")
+plots_folder=Path('../plots/')
+df = pd.read_csv(data_folder/'applemobilitytrends-2020-04-28.csv', sep=",", error_bad_lines=False, index_col=2)
 #filter Switzerland
 df=df[df['region']=='Switzerland']
 df=df.drop(columns=['region','alternative_name','geo_type']).T
@@ -35,7 +38,5 @@ ax.get_legend().remove()
 plt.plot([-10,100],[100,100],c='dimgray')
 plt.annotate('Source: Apple mobility trends',xy=(0.97,0.03),
             xycoords='figure fraction', horizontalalignment='right',
-            verticalalignment='top', fontsize=7, color='#555555')
-plt.tight_layout()  
-fig.set_size_inches(8, 6)         
-fig.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/transportation.png',dpi=400)
+            verticalalignment='top', fontsize=7, color='#555555')          
+fig.savefig(plots_folder/'transportation.png',dpi=400)

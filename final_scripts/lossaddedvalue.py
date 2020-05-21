@@ -1,6 +1,9 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+from pathlib import Path
+data_folder = Path("../data/")
+plots_folder=Path('../plots/')
 
 sns.set(style="whitegrid")
 data=[['Scenario 1',14.8,29.5,49.2],['Scenario 2',17.7,35.4,59.0]]
@@ -32,4 +35,4 @@ plt.legend(frameon=False,loc='upper center', bbox_to_anchor=(0.5, 0.95),
 plt.yticks(ticks=[0,20,40,60],labels=['0','20','40','60'])
 plt.title('Forecast for loss in added value due to the COVID-19 in \n Switzerland by duration of shutdowns',loc='center',fontsize=12)
 fig.set_size_inches(8, 6)           
-fig.savefig('C:/Users/rysza/Desktop/python data analysis/Project/plots/lossaddedvalue.png',dpi=400)
+fig.savefig(plots_folder/'lossaddedvalue.png',dpi=400)
