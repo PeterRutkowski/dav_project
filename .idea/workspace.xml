@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work_in_progress/plotly_prediction_deaths.html" beforeDir="false" afterPath="$PROJECT_DIR$/work_in_progress/plotly_prediction_deaths.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_in_progress/prediction_deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/work_in_progress/prediction_deaths.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_in_progress/prediction_deaths_interactive.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_in_progress/prediction_deaths_interactive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work_in_progress/prediction_deaths_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_in_progress/prediction_deaths_static.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
       <recent name="$PROJECT_DIR$/peter_work_in_progress" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prediction_deaths_static">
+  <component name="RunManager" selected="Python.prediction_deaths_interactive">
     <configuration name="prediction_cases_interactive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dav-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,9 +157,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prediction_deaths_interactive" />
         <item itemvalue="Python.prediction_deaths_static" />
         <item itemvalue="Python.prediction_cases_static" />
-        <item itemvalue="Python.prediction_deaths_interactive" />
         <item itemvalue="Python.survey_fear_interactive" />
         <item itemvalue="Python.prediction_cases_interactive" />
       </list>
@@ -194,25 +191,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588349383067" />
-    <state width="1417" height="267" key="GridCell.Tab.0.bottom" timestamp="1590184099794">
+    <state width="1417" height="267" key="GridCell.Tab.0.bottom" timestamp="1590184404864">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="267" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590184099794" />
+    <state width="1417" height="267" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590184404864" />
     <state width="1417" height="288" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589128362845" />
-    <state width="1417" height="267" key="GridCell.Tab.0.center" timestamp="1590184099793">
+    <state width="1417" height="267" key="GridCell.Tab.0.center" timestamp="1590184404862">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="267" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590184099793" />
+    <state width="1417" height="267" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590184404862" />
     <state width="1417" height="288" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589128362844" />
-    <state width="1417" height="267" key="GridCell.Tab.0.left" timestamp="1590184099792">
+    <state width="1417" height="267" key="GridCell.Tab.0.left" timestamp="1590184404862">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="267" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590184099792" />
+    <state width="1417" height="267" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590184404862" />
     <state width="1417" height="288" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589128362843" />
-    <state width="1417" height="267" key="GridCell.Tab.0.right" timestamp="1590184099794">
+    <state width="1417" height="267" key="GridCell.Tab.0.right" timestamp="1590184404863">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="267" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590184099794" />
+    <state width="1417" height="267" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590184404863" />
     <state width="1417" height="288" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589128362845" />
     <state x="220" y="89" key="SettingsEditor" timestamp="1588339672703">
       <screen x="0" y="0" width="1440" height="900" />
