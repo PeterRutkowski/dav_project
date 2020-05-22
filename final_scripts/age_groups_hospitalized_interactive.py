@@ -70,6 +70,4 @@ fig.update_layout(
     legend=dict(x=0.3,y=0.95),
     legend_orientation="h"
     )
-fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\age_group_hospitalized.html',include_plotlyjs=False)
-fig_json_2 = fig.to_html(full_html=False,include_plotlyjs='cdn')
-fig.show()
+fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\age_group_hospitalized.html', include_plotlyjs='cdn')
