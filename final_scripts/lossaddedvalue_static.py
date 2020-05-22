@@ -12,7 +12,7 @@ df=pd.DataFrame(data,columns=['Scenario', '1 week','1 month' ,'2 months'])
 
 df=pd.melt(df, id_vars=['Scenario'] , value_vars=['1 week','1 month' ,'2 months'])
 
-fig, ax = plt.subplots(figsize=(8, 6))
+fig, ax = plt.subplots(figsize=(650, 500))
 sns.barplot(x="variable", y="value", hue='Scenario',data=df,palette='Blues')
 
 
@@ -34,5 +34,6 @@ plt.legend(frameon=False,loc='upper center', bbox_to_anchor=(0.5, 0.95),
           fancybox=True, shadow=True, ncol=2,fontsize=11)
 plt.yticks(ticks=[0,20,40,60],labels=['0','20','40','60'])
 plt.title('Forecast for loss in added value due to the COVID-19 in \n Switzerland by duration of shutdowns',loc='center',fontsize=12)
-fig.set_size_inches(8, 6)           
-fig.savefig(plots_folder/'lossaddedvalue.png',dpi=400)
+fig.set_size_inches(8, 6)
+my_dpi=100
+fig.savefig('lossaddedvalue.png',dpi=my_dpi)
