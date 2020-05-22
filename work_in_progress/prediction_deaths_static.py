@@ -36,10 +36,10 @@ stepwise_fit = auto_arima(dta, start_p=1, start_q=1,
 
 # To print the summary
 stepwise_fit.summary()
-arima_mod011 = sm.tsa.ARIMA(dta, (0, 1, 1), freq='D').fit(disp=False)
+arima_mod011 = sm.tsa.ARIMA(dta, (1, 0, 1), freq='D').fit(disp=False)
 pred = arima_mod011.predict(datetime(2020, 4, 30, 0, 0), datetime(2020, 5, 9, 0, 0))
 
-x = np.asarray(data['new_cases'])
+x = np.asarray(data['new_deaths'])
 
 sns.set(style="whitegrid")
 fig, ax = plt.subplots(figsize=(8, 6))
@@ -48,8 +48,8 @@ ax.bar(np.arange(len(x), len(x) + len(pred), 1), pred, color=(255 / 255, 51 / 25
 ax.set_title('Predicted evolution of new daily COVID-19 deaths\n'
              'in Switzerland using ARMA model', fontsize=12)
 ax.set_ylabel('New daily deaths', fontsize=10)
-ax.set_yticks(np.arange(0, 1500, 200))
-ax.set_yticklabels([x for x in np.arange(0, 1500, 200)], fontsize=10)
+ax.set_yticks(np.arange(0, 85, 20))
+ax.set_yticklabels([x for x in np.arange(0, 85, 20)], fontsize=10)
 ax.set_xticks([4, 35, 65])
 ax.set_xticklabels(['Mar 1', 'Apr 1', 'May 1'], fontsize=10)
 

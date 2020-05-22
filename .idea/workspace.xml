@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/work_in_progress/prediction_cases_interactive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_in_progress/prediction_deaths_interactive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/work_in_progress/prediction_deaths_static.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_autoreg_cases.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_autoreg_deaths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_smoothing_cases.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_plots/prediction_smoothing_deaths.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/new_daily_cases_deaths.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_autoreg_cases.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_autoreg_deaths.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_smoothing_cases.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/prediction_smoothing_deaths.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/survey_bankruptcy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/survey_fear.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_scripts/survey_leadership.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_in_progress/plotly_prediction_deaths.html" beforeDir="false" afterPath="$PROJECT_DIR$/work_in_progress/plotly_prediction_deaths.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_in_progress/prediction_deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/work_in_progress/prediction_deaths.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_in_progress/prediction_deaths_interactive.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_in_progress/prediction_deaths_interactive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work_in_progress/prediction_deaths_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/work_in_progress/prediction_deaths_static.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,28 +52,7 @@
       <recent name="$PROJECT_DIR$/peter_work_in_progress" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prediction_deaths_interactive">
-    <configuration name="plotly_cases_interactive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="dav-project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/peter_work_in_progress" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/peter_work_in_progress/plotly_cases_interactive.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.prediction_deaths_static">
     <configuration name="prediction_cases_interactive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="dav-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,13 +137,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="survey_fear_interactive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="dav-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/work_in_progress" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/work_in_progress/survey_fear_interactive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prediction_deaths_interactive" />
         <item itemvalue="Python.prediction_deaths_static" />
-        <item itemvalue="Python.prediction_cases_interactive" />
         <item itemvalue="Python.prediction_cases_static" />
-        <item itemvalue="Python.plotly_cases_interactive" />
+        <item itemvalue="Python.prediction_deaths_interactive" />
+        <item itemvalue="Python.survey_fear_interactive" />
+        <item itemvalue="Python.prediction_cases_interactive" />
       </list>
     </recent_temporary>
   </component>
@@ -205,25 +194,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588349383067" />
-    <state width="1417" height="169" key="GridCell.Tab.0.bottom" timestamp="1590181873798">
+    <state width="1417" height="267" key="GridCell.Tab.0.bottom" timestamp="1590184099794">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="169" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590181873798" />
+    <state width="1417" height="267" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590184099794" />
     <state width="1417" height="288" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589128362845" />
-    <state width="1417" height="169" key="GridCell.Tab.0.center" timestamp="1590181873794">
+    <state width="1417" height="267" key="GridCell.Tab.0.center" timestamp="1590184099793">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="169" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590181873794" />
+    <state width="1417" height="267" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590184099793" />
     <state width="1417" height="288" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589128362844" />
-    <state width="1417" height="169" key="GridCell.Tab.0.left" timestamp="1590181873793">
+    <state width="1417" height="267" key="GridCell.Tab.0.left" timestamp="1590184099792">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="169" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590181873793" />
+    <state width="1417" height="267" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590184099792" />
     <state width="1417" height="288" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589128362843" />
-    <state width="1417" height="169" key="GridCell.Tab.0.right" timestamp="1590181873796">
+    <state width="1417" height="267" key="GridCell.Tab.0.right" timestamp="1590184099794">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1417" height="169" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590181873796" />
+    <state width="1417" height="267" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590184099794" />
     <state width="1417" height="288" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589128362845" />
     <state x="220" y="89" key="SettingsEditor" timestamp="1588339672703">
       <screen x="0" y="0" width="1440" height="900" />

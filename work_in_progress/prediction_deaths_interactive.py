@@ -36,7 +36,7 @@ stepwise_fit = auto_arima(dta, start_p=1, start_q=1,
 
 # To print the summary
 stepwise_fit.summary()
-arima_mod011 = sm.tsa.ARIMA(dta, (0, 1, 1), freq='D').fit(disp=False)
+arima_mod011 = sm.tsa.ARIMA(dta, (1, 0, 1), freq='D').fit(disp=False)
 pred = arima_mod011.predict(datetime(2020, 4, 30, 0, 0), datetime(2020, 5, 9, 0, 0))
 
 print(type(pred))
