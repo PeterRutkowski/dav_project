@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a318747-447a-419e-9c13-d2c291b06580" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_bankruptcy.html" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/plotly_bankruptcy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_bankruptcy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/plotly_cases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_cases.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_deaths.html" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/plotly_deaths.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_deaths.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_growth.html" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/plotly_growth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_growth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_new_cases.html" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/plotly_new_cases.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_new_cases.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_new_deaths.html" beforeDir="false" afterPath="$PROJECT_DIR$/peter_work_in_progress/plotly_new_deaths.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/plotly_new_deaths.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/peter_work_in_progress/pred_arima.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/presentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
