@@ -82,5 +82,4 @@ layout = dict(
 
 )
 fig=go.Figure(data=data_slider,layout=layout)
-fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\map_neighbours.html')
-fig_json_5 = fig.to_html(full_html=False)
+fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\map_neighbours.html', include_plotlyjs='cdn')

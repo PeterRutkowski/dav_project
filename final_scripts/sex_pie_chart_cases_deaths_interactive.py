@@ -22,9 +22,9 @@ newdf2=pd.DataFrame({'male': [df2['dmale'].sum()],'female': [df2['dfemale'].sum(
 fig = px.pie(newdf, values='cases', names='sex', title='Cases of COVID-19 by sex', color_discrete_sequence=['cornflowerblue','tomato'])
 fig.update_layout(legend=dict(x=0.365, y=-0.1),legend_orientation="h",title=dict(x=0.5),    width=680,
     height=500)
-fig_json_7 = fig.to_html(full_html=False,include_plotlyjs='cdn')
-fig.show()
+fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\sex_pie_chart_1.html', include_plotlyjs='cdn')
+
 fig2=px.pie(newdf2, values='cases', names='sex', title='Deaths from COVID-19 by sex', color_discrete_sequence=['tomato','cornflowerblue'])
 fig2.update_layout(legend=dict(x=0.365, y=-0.1),legend_orientation="h",title=dict(x=0.5),    width=680,
     height=500)
-fig_json_8 = fig2.to_html(full_html=False,include_plotlyjs='cdn')
+fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\sex_pie_chart_2.html', include_plotlyjs='cdn')
