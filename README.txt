@@ -2,7 +2,7 @@ In the project we have explored the COVID-19 pandemic in Switzerland. In particu
 (19 interactive plots and 1 GIF). When creating plots we have used the seaborn library for static plots (apart from maps, which were made with geopandas) and the plotly library
 for interactive plots.
 The data came from: Kaggle, Our World in Data, Apple, Bundesamt fur Gesundheit, SRG SSR. In some of the plots we have created the data manually based on the information
-in the research papers (the PDF-s are included in the data folder). The details:
+from the research papers (the PDF-s are included in the data folder). The details:
 
 survey_bankruptcy_static : srg-bevoelkerungsmonitoring-coronakrise-20200324neu.pdf, page 62
 survey_leadership_static: umfrage-impakt-coronakrise-auf-schweizer-tourismus-marz-2020-2.pdf, page 29
