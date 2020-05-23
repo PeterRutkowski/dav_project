@@ -1,4 +1,5 @@
 Created by Ryszard Eggink and Piotr Rutkowski
+
 Data analysis and visualisation final project, University of Warsaw 2020
 
 In this project we have explored the COVID-19 pandemic in Switzerland. In particular, we have created a poster (with 12 plots embedded) and a presentation (18 interactive plots, 1 static plot and 1 GIF animation). When creating plots, we have used the seaborn (static plots), matplotlib (static plots), geopandas (maps), plotly (interactive plots) and imagemagick (animation).
