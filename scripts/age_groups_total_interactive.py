@@ -68,4 +68,4 @@ fig.update_layout(
     showlegend=True,
     legend=dict(x=0.85,y=0.95)
     )
-fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\age_group_total.html', include_plotlyjs='cdn')
+fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactive_plots\\age_group_total.html', include_plotlyjs='cdn')

@@ -70,4 +70,4 @@ layout = dict(
 
 )
 fig=go.Figure(data=data_slider,layout=layout)
-fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\map_counties.html', include_plotlyjs='cdn')
+fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactive_plots\\map_counties.html', include_plotlyjs='cdn')

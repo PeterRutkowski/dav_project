@@ -2,7 +2,7 @@ import plotly.graph_objects as go
 import pandas as pd
 from pathlib import Path
 data_folder = Path("../data/")
-interactive_plots=Path('../interactiveplots/')
+interactive_plots=Path('../interactive_plots/')
 file_to_open=data_folder/'agegroups.xlsx'
 xls = pd.ExcelFile(file_to_open)
 
@@ -70,4 +70,4 @@ fig.update_layout(
     legend=dict(x=0.3,y=0.95),
     legend_orientation="h"
     )
-fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\age_group_hospitalized.html', include_plotlyjs='cdn')
+fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactive_plots\\age_group_hospitalized.html', include_plotlyjs='cdn')

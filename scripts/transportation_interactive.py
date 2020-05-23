@@ -112,4 +112,4 @@ fig.add_trace(go.Scatter(
     family="Times New Roman",
     )
 ))
-fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactiveplots\\transportation.html',include_plotlyjs='cdn')
+fig.write_html('C:\\Users\\rysza\\Desktop\\python data analysis\\Project\\interactive_plots\\transportation.html',include_plotlyjs='cdn')
