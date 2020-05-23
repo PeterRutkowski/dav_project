@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 from pathlib import Path
 data_folder = Path("../data/")
-plots_folder=Path('../plots/')
+plots_folder=Path('../static_plots/')
 df = pd.read_csv(data_folder/'applemobilitytrends-2020-04-28.csv', sep=",", error_bad_lines=False, index_col=2)
 #filter Switzerland
 df=df[df['region']=='Switzerland']

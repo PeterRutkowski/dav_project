@@ -4,8 +4,8 @@ import pandas as pd
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from pathlib import Path
 data_folder = Path("../data/")
-plots_folder=Path('../plots/')
-switzerland_folder=Path('../swisscanton/')
+plots_folder=Path('../static_plots/')
+switzerland_folder=Path('../data/swisscanton/')
 
 
 fp=switzerland_folder/'ch-cantons.shp'

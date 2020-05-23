@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.patches as mpatches
 from pathlib import Path
 data_folder = Path("../data/")
-plots_folder=Path('../plots/')
+plots_folder=Path('../static_plots/')
 xls = pd.ExcelFile(data_folder/'agegroups.xlsx')
 
 df1 = pd.read_excel(xls, 'COVID19 Altersverteilung Hospit',header=6)

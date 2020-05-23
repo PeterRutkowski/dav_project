@@ -4,8 +4,8 @@ import pandas as pd
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from pathlib import Path
 data_folder = Path("../data/")
-plots_folder=Path('../plots/')
-europe_folder=Path('../Europe/')
+plots_folder=Path('../static_plots/')
+europe_folder=Path('../data/Europe/')
 fp=europe_folder/'Europe.shp'
 map_df = gpd.read_file(fp)
 countries=['France','Italy','Switzerland','Austria','Germany','Liechtenstein']

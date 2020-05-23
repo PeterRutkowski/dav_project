@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 from pathlib import Path
 data_folder = Path("../data/")
-plots_folder=Path('../plots/')
+plots_folder=Path('../static_plots/')
 
 sns.set_style("whitegrid")
 df = pd.DataFrame({'y': [0.03,0.15,0.22,0.6],
